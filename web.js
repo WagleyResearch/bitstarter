@@ -1,6 +1,6 @@
 var express = require('express');
 var fs = require('fs');
-var buffer = new Buffer("")l
+var buffer = new Buffer("");
 var data = fs.readFileSync('index.html', 'utf-8', buffer);
 var html;
 buffer.toString(html);
