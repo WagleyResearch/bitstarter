@@ -6,7 +6,7 @@ var html = buffer.toString();
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
-  response.send(html + " hi");
+  response.send(html);
 });
 
 var port = process.env.PORT || 5000;
